@@ -1,0 +1,36 @@
+{
+  "name": {
+    "zh-cn": "标准MQTT连接",
+    "en": "MQTT_connect"
+  },
+  "description": {
+    "zh-cn": "用于连接MQTT服务器，提供标准的MQTT服务",
+    "en": "Used to connect to EMQ server and provide MQTT service "
+  },
+  "author": "shenshian",
+  "email": "2369455282@qq.com",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "MQTT",
+  "version": "0.0.1",
+  "platform": [
+    "win",
+    "mac",
+    "web"
+  ],
+  "asset": {
+    "arduinoC": {
+      "dir": "arduinoC/",
+      "version": "0.0.1",
+      "board": [
+        "microbit",
+        "esp32",
+        "firebeetleesp32"
+      ],
+      "main": "main.ts",
+      "files": [
+        
+      ]
+    }
+  }
+}
